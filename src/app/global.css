@@ -1,0 +1,23 @@
+* {
+  scrollbar-color: rgba(100, 112, 125, 0.5) transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: content-box;
+  background-color: rgba(100, 112, 125, 0.5);
+  opacity: 50%;
+  border-radius: 4px;
+}

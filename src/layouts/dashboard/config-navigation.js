@@ -13,7 +13,7 @@ const icon = (name) => (
 );
 
 const ICONS = {
-  chat: icon('ic_job'),
+  chat: icon('ic_chat'),
 };
 
 // ----------------------------------------------------------------------

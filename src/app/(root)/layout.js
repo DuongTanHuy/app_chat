@@ -1,5 +1,10 @@
 'use client';
 
+// lightbox
+import 'yet-another-react-lightbox/styles.css';
+import 'yet-another-react-lightbox/plugins/captions.css';
+import 'yet-another-react-lightbox/plugins/thumbnails.css';
+
 import { SettingsDrawer, SettingsProvider } from 'src/components/settings';
 import { SnackbarProvider } from 'src/components/snackbar';
 import ProgressBar from 'src/components/progress-bar';

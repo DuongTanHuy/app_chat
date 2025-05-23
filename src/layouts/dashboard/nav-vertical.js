@@ -53,10 +53,6 @@ export default function NavVertical({ openNav, onCloseNav }) {
           currentRole: 'admin',
         }}
       />
-
-      <Box sx={{ flexGrow: 1 }} />
-
-      <NavUpgrade />
     </Scrollbar>
   );
 
@@ -80,6 +76,7 @@ export default function NavVertical({ openNav, onCloseNav }) {
           }}
         >
           {renderContent}
+          <NavUpgrade />
         </Stack>
       ) : (
         <Drawer

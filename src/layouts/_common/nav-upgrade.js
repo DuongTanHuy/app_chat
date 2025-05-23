@@ -37,7 +37,7 @@ export default function NavUpgrade() {
               borderBottomLeftRadius: 2,
             }}
           >
-            Free
+            Pro
           </Label>
         </Box>
 
@@ -51,9 +51,9 @@ export default function NavUpgrade() {
           </Typography>
         </Stack>
 
-        <Button variant="contained" href="/" target="_blank" rel="noopener">
+        {/* <Button variant="contained" href="/" target="_blank" rel="noopener">
           Update to Pro
-        </Button>
+        </Button> */}
       </Stack>
     </Stack>
   );

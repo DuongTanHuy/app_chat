@@ -17,8 +17,6 @@ import { HeaderShadow } from '../_common';
 function NavHorizontal() {
   const theme = useTheme();
 
-  const { user } = useMockedUser();
-
   const navData = useNavData();
 
   return (

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { ChatView } from 'src/sections/chat/view';
 
 const page = () => {
-  return (
-    <div>page</div>
-  )
-}
+  return <ChatView />;
+};
 
-export default page
+export default page;
