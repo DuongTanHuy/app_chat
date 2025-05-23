@@ -1,0 +1,46 @@
+{
+  "name": "nextjs-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@iconify/react": "^6.0.0",
+    "@mui/lab": "^7.0.0-beta.12",
+    "@mui/material": "^7.1.0",
+    "@mui/material-nextjs": "^7.1.0",
+    "@mui/x-data-grid": "^8.4.0",
+    "@mui/x-date-pickers": "^8.4.0",
+    "lodash": "^4.17.21",
+    "next": "15.1.8",
+    "notistack": "^3.0.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "simplebar-react": "^3.3.1",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/eslint-parser": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.8",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-unused-imports": "^4.1.4"
+  }
+}
